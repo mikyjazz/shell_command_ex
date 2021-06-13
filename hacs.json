@@ -1,7 +1,7 @@
 {
   "name": "shell_command_ex",
   "domains": [
-    "shell_command"
+    "shell_command_ex"
   ],
   "homeassistant": "0.118.0",
   "render_readme": true
