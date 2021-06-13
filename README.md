@@ -5,7 +5,6 @@ ha_category:
   - Automation
 ha_iot_class: Local Push
 ha_release: 0.7.6
-ha_quality_scale: internal
 ha_codeowners:
   - '@home-assistant/core'
   - '@mikyjazz'
@@ -60,7 +59,6 @@ shell_command_ex:
 This is a an example of an shell command used in conjunction with an input
 helper and an automation.
 
-{% raw %}
 
 ```yaml
 # Apply value of a GUI slider to the shell_command_ex
@@ -80,8 +78,6 @@ input_number:
     max: 32
     step: 1
 
-shell_command:
+shell_command_ex:
   set_ac_to_slider: 'irsend SEND_ONCE DELONGHI AC_{{ states("input_number.ac_temperature") }}_AUTO'
 ```
-
-{% endraw %}
