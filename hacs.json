@@ -4,5 +4,5 @@
     "shell_command_ex"
   ],
   "homeassistant": "0.118.0",
-  "render_readme": true
+  "render_readme": true 
 }
